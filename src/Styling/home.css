@@ -7,7 +7,7 @@
   height: 40vh;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  /* margin-left: 20%; */
+  margin-left: 2%;
   margin-bottom: 0;
 }
 
@@ -38,14 +38,19 @@ h4 {
 }
 
 .profile-pic img {
+  margin-right: 30px;
   border-radius: 50%;
+  width: 300px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */
+  /* background-blend-mode: text; */
+  mix-blend-mode: overlay;
+  background-color: white;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .profile-pic img:hover {
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
 }
 

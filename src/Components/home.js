@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import "../Styling/home.css";
 import Typed from "typed.js";
+import dp from "../dp.jpg";
 
 const Home = () => {
   const typedRef = useRef(null);
@@ -30,10 +31,7 @@ const Home = () => {
         <div className="desg" ref={typedRef}></div>
       </div>
       <div className="profile-pic">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0iJcgw-_IUtBTNXMGYNF044247gEtgqGMA&usqp=CAU"
-          alt="profile-pic"
-        />
+        <img src={dp} alt="profile-pic" />
       </div>
     </div>
   );
