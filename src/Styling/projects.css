@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 110vh;
+  /* background-color: #fff; */
+}
+
+.projs {
+  width: 400px;
+}
+
+.project {
+}
+
+.proj-img {
+  width: 400px;
+  height: 300px;
+  image-resolution: 3dpi;
+}
+
+.proj-img:hover {
+  cursor: pointer;
+}
+
+.proj-desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}

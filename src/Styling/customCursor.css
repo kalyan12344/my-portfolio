@@ -1,0 +1,16 @@
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 217, 0, 0.445);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none; /* Ensure the cursor doesn't interfere with interactive elements */
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out;
+  cursor: none;
+}
+
+.hovered {
+  transform: scale(2); /* Adjust the scale factor based on your preference */
+}
